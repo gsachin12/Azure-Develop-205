@@ -2,9 +2,22 @@ sudo apt-get install nginx
 
 sudo service nginx stop
 
-// Go to the sites-available folder
+// Go to the /etc/ngnix/sites-available folder
 
 sudo chmod 777 default
+
+
+
+location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to displaying a 404.
+		proxy_pass http://localhost:5000;
+		proxy_http_version 1.1;
+		proxy_set_header Upgrade $http_upgrade;
+		proxy_set_header Connection keep_alive;
+		proxy_set_header Host $host;
+		proxy_cache_bypass $http_upgrade;
+	}
 
 sudo service nginx start
 
