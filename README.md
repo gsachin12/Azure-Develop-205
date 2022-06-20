@@ -9,11 +9,13 @@ IIS manager + management service
 Building a virtual machine
 
 Lab – Connecting to the machine
-Lab – Installing Internet Information Se
+
+Lab – Installing Internet Information Service
+
 Lab – Deploying a Net Core App on Window
 Lab – Creating a Linux VM
-Lab – Deploying a .NET Core App on the L
-Lab – Deploying a .NET Core App on the L
+Lab – Deploying a .NET Core App on the Linxu VM
+Lab – Deploying a .NET Core App on the Linux VM
 Azure Resource Manager Templates
 Azure CLI – Creating an Azure VM
 Azure PowerShell – Creating an Azure VM
