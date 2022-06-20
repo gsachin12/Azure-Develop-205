@@ -6,7 +6,7 @@
 web deploy 3.6 tool 
 IIS manager + management service
 
-Building a virtual machine
+Develop Azure Compute Solutions - Azure Virtual Machines
 
 #Lab – Connecting to the machine
 #Lab – Installing Internet Information Service
