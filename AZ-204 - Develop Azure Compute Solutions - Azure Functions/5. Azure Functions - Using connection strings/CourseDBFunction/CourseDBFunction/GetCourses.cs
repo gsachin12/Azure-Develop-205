@@ -21,7 +21,7 @@ namespace CourseDBFunction
         {
             List<Course> _lst = new List<Course>();
             // Ensure to use the Environment class to get the connection string
-            string _connection_string = Environment.GetEnvironmentVariable("SQLAZURECONNSTR_SQLConnectionString");
+            string _connection_string = "Server=tcp:sachin.database.windows.net,1433;Initial Catalog=appdb;Persist Security Info=False;User ID=sachin;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             string _statement = "SELECT CourseID,CourseName,rating from Course";
             SqlConnection _connection = new SqlConnection(_connection_string);
             _connection.Open();
