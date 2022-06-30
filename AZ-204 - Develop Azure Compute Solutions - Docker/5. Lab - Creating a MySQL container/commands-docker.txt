@@ -7,3 +7,13 @@ docker ps
 docker logs mysql-instance
 
 docker exec -it mysql-instance mysql -uroot -p
+
+
+#after install mysql-client
+
+sudo apt-get install mysql-client
+
+
+#how to connect mysql command
+
+mysql -h 127.0.0.1 -uroot -p
