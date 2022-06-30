@@ -1,7 +1,14 @@
+#mysql command use appdb;
+create table;
+insert data ;
+check which container is running;
+stop the mysql container docker conatiner rm -f id;
+
+#go to dir of docker compose 
+root@VM:cd /mnt/c/users/sachin/Desktop/vscode/mysqlproject# 
+
 docker-compose up
 
-docker exec -it mysqlproject_db_1 bash
-
-mysql -u root -p
+mysql -h 127.0.0.1 -u user -p
 
 docker exec -it mysqlproject_web bash
